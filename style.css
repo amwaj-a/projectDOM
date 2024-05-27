@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.rover-header-container{
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: space-between;
+}
+.rover-header-left{
+   
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+    /* background-color: antiquewhite; */
+}
+.rover-header-right,.rover-header-right a {
+    padding: 5px;
+}
+.rover-header-container a{
+    padding-top:10px ;
+    color: gray;
+    text-decoration: none;
+}
+.logo{
+    width: 6%;
+}
+.nav-bar{
+    display: none;
+}
+
+
+.rover-hero-container{
+   
+   background-image: url(dogHeader.avif);
+    background-size: cover ;
+    color: rgb(70, 70, 70);
+    padding: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+/* justify-content: space-evenly; */
+    height: 50vh;
+font-size: 1.1rem;
+}
+.rover-hero-container p{
+    margin-left: 30px;
+    width: 20vw;
+}
+.rover-hero-container h1{
+    
+    margin-left: 30px;
+    
+}
+.rover-hero-container div{
+    display: none;
+}
+.rover-middle-section{
+    margin-top: 30px;
+
+    text-align: center;
+    
+    /* background-color: antiquewhite; */
+}
+.factandboxContainer{
+    display: flex;
+margin-bottom: 30px;
+    justify-content: space-around;
+
+}
+.rover-mobile-hero-container{
+/* grid-area: right; */
+display: none;
+    /* background-color: aqua; */
+
+}
+.rover-fact-indiv{
+display: flex;
+font-size: 0.8rem;
+
+}
+.rover-fact-indiv div{
+    /* padding: 0; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.rover-fact-indiv h3,.rover-123-item h3{
+    font-size: 1rem;
+
+}
+.rover-fact-indiv p{
+    color: gray;
+}
+.rover-fact-indiv img,.rover-123-item img{
+    width: 10%;
+}
+.rover-facts-container{
+
+    /* grid-area: left; */
+
+}
+/* .rover-protections{} */
+.rover-cta-box{
+
+    /* grid-area: right; */
+    font-size: 0.8rem;
+    border: 1px solid gray;
+height: max-content;
+/* text-align: end; */
+
+    /* background-color: aquamarine; */
+
+}
+.rover-protections{
+font-size: 0.8rem;
+}
+.rover-cta{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    color: white;
+    background-color: rgb(24, 145, 104);
+
+}
+.rover-facts span{
+    color: rgb(24, 145, 104);
+}
+.rover-facts{
+    list-style-type: none;
+    text-align: start;
+    line-height: 2rem;
+
+}
+.rover-cta-header{
+    border-bottom: 1px solid gray;
+
+    background-color: rgb(224, 224, 224);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.bold{
+    font-weight: bold;
+}
+.rover-cta-header img{
+    margin:10px ;
+width: 6%;
+height: 4%;
+
+}
+
+
+
+
+.rover-action-shot{
+    /* margin-top: 30px; */
+    height: 70vh;
+position: relative;
+    background-image: url(dog2.jpg);
+    background-size: cover;
+    background-position-y: 30%;
+}
+
+
+.rover-action-dash{
+    color:  rgb(24, 145, 104);;
+}
+
+.rover-action-quote-container{
+    border: 1px solid gray;
+    background-color: white;
+    padding: 10px;
+    font-size: 0.8rem;
+    width: 25%;
+    position: absolute;
+    top: -10%;
+    left: 10%;
+    z-index: 1;
+}
+.rover-action-quote-container a{
+    text-decoration: none;
+    color:  rgb(24, 145, 104);;
+}
+
+
+
+
+.rover-123-container{
+    font-size: 0.7rem;
+    /* margin-top: 30px; */
+    text-align: center;
+}
+.rover-123-item-container{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+
+
+}
+
+.rover-123-item{
+    /* border: 10px solid red; */
+}
+
+.rover-123-item p{
+    font-size: 0.8rem;
+
+}
+.rover-123-container h2{
+    font-size: 1.5rem;
+}
+.imgLast{
+    /* background-color: black; */
+    width: 6%!important;
+}
+@media only screen and (max-width:600px) {
+    .nav-bar{
+        display: '';
+    }
+    
+}
