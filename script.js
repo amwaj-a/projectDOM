@@ -2,7 +2,7 @@ let nav = document.getElementsByClassName("dropdown-content")[0];
 let logo = document.getElementsByClassName("logo")[0];
 let img2 = document.querySelector(".rover-action-shot");
 let img1 = document.querySelector(".rover-hero-container");
-let title = document.querySelector("h1");
+let title1 = document.querySelector("h1");
 let titlePra = document.querySelectorAll("p")[0];
 let listSection1 = document.querySelectorAll("h3")[0];
 let list2Section1 = document.querySelectorAll("h3")[2];
@@ -12,9 +12,11 @@ let TxtBox = document.querySelectorAll("p")[9];
 let TxtFooter = document.querySelectorAll("h2")[1];
 
 // console.log(document.querySelectorAll("h2"));
-
 logo.addEventListener("click", () => {
-  replaced(title, "Dog");
+  // replaced(document.title, "Dog");
+  window.top.document.title = "Rover.com: Book Cat Boarding Services";
+
+  replaced(title1, "Dog");
   replaced(titlePra, "dog");
   replaced(listSection1, "Dog");
   replaced(list2Section1, "Dog");
@@ -33,7 +35,6 @@ logo.addEventListener("click", () => {
 });
 
 function replaced(params, oldValue) {
-  console.log(params);
   oldValue == "Dog"
     ? (params.innerText = params.textContent.replace(/Dog/, "Cat"))
     : (params.innerText = params.textContent.replace(/dog/, "Cat"));
