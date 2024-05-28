@@ -223,18 +223,31 @@ position: relative;
         
     }
     .dropdown{
+        background-color: transparent;
+
         text-align: center;
     }
-    .dc-section{
+    .fa-align-justify{
+        color: black;
+        background-color: white;
+        }
+    .dropdown-content{
+        padding: 0px 20px;
+        border: 1px solid gray;
+
         display: flex;
     flex-direction: column;
     position: absolute;
     right: 0px;
-    background-color: aliceblue;
+    background-color: white;
     }
-    .dropdown-content{
+    .dc-section{
+        display: flex;
+        flex-direction: column;
+    }
+    /* .dropdown-content{
         display: none;
-    }
+    } */
     .rover-header-left,.rover-header-right{
         display: none;
     }
