@@ -252,6 +252,7 @@ background-position-x:63% ;
 
 
 .rover-middle-section{
+ margin-left: 10px;   
     font-size: 0.9rem;
 }
 .factandboxContainer{
@@ -287,9 +288,16 @@ background-position-x:63% ;
     width: 40%;
   
 }
+.rover-123-container {
+    display: flex;
+    flex-direction: column;
+}
 .rover-123-container h2{
     font-size: 1rem;
 
+}
+.rover-123-item p{
+    font-size: 0.6rem;
 }
 .rover-123-item img{
     width:8vw;

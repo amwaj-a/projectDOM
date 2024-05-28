@@ -25,9 +25,11 @@ logo.addEventListener("click", () => {
 
   img1.style.backgroundImage = "url(cat.jpg)";
   img1.style.backgroundPositionY = "30%";
+  img1.style.backgroundPositionX = "30%";
   img2.style.backgroundImage =
     "url('https://t3.ftcdn.net/jpg/06/30/14/24/360_F_630142489_woQtMUVgEibBZRUWxsgctRARoGp7P6Yx.jpg')";
   img2.style.backgroundPositionY = "40%";
+  img2.style.backgroundPositionX = "60%";
 });
 
 function replaced(params, oldValue) {
