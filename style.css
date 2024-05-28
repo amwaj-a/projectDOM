@@ -65,8 +65,7 @@ font-size: 1.1rem;
     margin-top: 30px;
 
     text-align: center;
-    
-    /* background-color: antiquewhite; */
+ 
 }
 .factandboxContainer{
     display: flex;
@@ -101,25 +100,20 @@ font-size: 0.8rem;
 .rover-fact-indiv img,.rover-123-item img{
     width: 10%;
 }
-.rover-facts-container{
 
-    /* grid-area: left; */
-
-}
-/* .rover-protections{} */
 .rover-cta-box{
 
-    /* grid-area: right; */
     font-size: 0.8rem;
     border: 1px solid gray;
 height: max-content;
-/* text-align: end; */
 
     /* background-color: aquamarine; */
 
 }
 .rover-protections{
-font-size: 0.8rem;
+    margin: 10px;
+    text-align: justify;
+font-size: 0.75rem;
 }
 .rover-cta{
     padding: 10px;
@@ -220,9 +214,85 @@ position: relative;
     /* background-color: black; */
     width: 6%!important;
 }
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 800px) {
+  
     .nav-bar{
-        display: '';
+        display:inline;
+        padding: 10px;
+        
     }
-    
+    .dropdown{
+        text-align: center;
+    }
+    .dc-section{
+        display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    background-color: aliceblue;
+    }
+    .dropdown-content{
+        display: none;
+    }
+    .rover-header-left,.rover-header-right{
+        display: none;
+    }
+    .logo{
+        height: 5vh;
+        width: 20%;
+        
+    }
+    .rover-hero-container p{
+        width: 50vw;
+    }
+    .rover-hero-container{
+background-position-x:63% ;
+}
+
+
+.rover-middle-section{
+    font-size: 0.9rem;
+}
+.factandboxContainer{
+    flex-direction: column;
+    gap: 30px;
+}
+.rover-cta-box{
+    margin: 10px;
+}
+.rover-fact-indiv div{
+   
+    /* align-items: flex-start; */
+}
+.rover-fact-indiv h3,.rover-123-item h3{
+    font-size: 0.9em;
+
+}
+
+.rover-fact-indiv img{
+    width: 9%;
+    height: 7vh;
+}
+
+.rover-action-shot{
+    height: 50vh;
+
+}
+
+.rover-action-quote-container{
+ 
+    padding: 10px;
+    font-size: 0.7rem;
+    width: 40%;
+  
+}
+.rover-123-container h2{
+    font-size: 1rem;
+
+}
+.rover-123-item img{
+    width:8vw;
+height: 4vh;
+
+}
 }
