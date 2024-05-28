@@ -40,6 +40,7 @@ main{
    
    background-image: url(dogHeader.avif);
     background-size: cover ;
+    
     color: rgb(70, 70, 70);
     padding: 10px;
 display: flex;
